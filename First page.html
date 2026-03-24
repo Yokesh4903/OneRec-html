@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html>
+    
+    <head>
+         <title>First Page</title>
+        <link rel="stylesheet" href="First page.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    </head>
+
+    <body>
+        <div class="row">
+            <div class="col-7">
+                <h1 class="well">Welcome to</h1>
+                <img src="Images/Group 3597.png" class="pic-top"> <br>
+                <img src="Images/Group 3599.png" class="pic-down">
+                <h3 class="manage">Manage your Patients</h3>
+            </div>
+
+            <div class="col-5">
+                <h1 class="sign">Sign In</h1>
+                <h5 class="text">We have Happy to be in our OneRec Portal. <br> Sign in and explore OneRec</h5>
+                <div class="mail">
+                    <input type="text" placeholder="Enter your Username" id="user">
+                </div>
+                <div class="pass">
+                   <input type="password" placeholder="Enter your Password" id="pass">
+                </div>
+                <div class="third">
+                    <div>
+                         <img src="Images/Rectangle 5.png" class="btn"> <span>Remember Me</span>
+                    </div>
+                   
+                    <h6 class="for">Forgot Password ?</h6>
+                </div>
+                <div class="up">
+                    <button class="sup">Sign up</button>
+                    <button onclick="handlesignin()" class="in">Sign In</button>
+                </div>
+
+            </div>
+        </div>
+
+        <script>
+            function handlesignin() {
+
+                let user = document.getElementById("user").value
+                let pass = document.getElementById("pass").value
+
+                let signinuser = localStorage.getItem("email")
+                let signinpass = localStorage.getItem("password")
+
+                if ( signinuser == user && signinpass == pass) {
+                    alert("Login Success")
+                    
+                } 
+                else{
+                    alert("Login Failed")
+                }
+
+            }
+        </script>
+
+    </body>

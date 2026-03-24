@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<head>
+    <title>Signup</title>
+    <link rel="stylesheet" href="Second.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+
+<body>
+     <div class="row">
+            <div class="col-7">
+                <h1 class="well">Welcome to</h1>
+                <img src="Images/Group 3597.png" class="pic-top"> <br>
+                <img src="Images/Group 3600.png" class="pic-down">
+                <h3 class="manage">Manage your Patients</h3>
+            </div>
+            <div class="col-5">
+                <h1 class="sign">Sign Up</h1>
+                <h5 class="text">We have Happy to be in our OneRec Portal. <br> Sign in and explore OneRec</h5>
+
+              <div class="name">
+                <input type="text" placeholder="Enter your First Name" id="fname" class="firstname">
+               <input type="text" placeholder="Enter your Last Name" id="lname"> 
+
+              </div>
+                <div class="mail">
+                    <input type="number" placeholder="Enter your phone number" id="num">
+               <input type="text" placeholder="Enter your Email" id="mail"> 
+
+                </div>
+               
+                <div class="pass">
+                   <input type="password" placeholder="Enter your Password" id="pass">
+                   <input type="password" placeholder="Confirm your Password" id="pass2">  
+
+                </div>
+
+               <input type="text" placeholder="Hospital Name" id="hname" class="hospital">
+
+               <div class="state">
+                 <input type="text" placeholder="State" id="state" >
+                 <input type="number" placeholder="Zipcode" id="zip">
+ 
+               </div>
+               
+               <div class="privacy">
+                  <!-- <img src="Images/Rectangle 5.png" class="btn"> <span>I agree to all the terms and privacy policy</span> -->
+                   <input type="checkbox" placeholder="I agree to all the terms and privacy policy"> <span>I agree to all the terms and privacy policy</span>
+                </div>
+
+                <div class="up">
+                    <button class="sup">Sign in</button>
+                    <button onclick="handlesignup()" class="in">Sign up</button>
+                </div>
+
+                 
+            </div>
+        </div>
+        <script>
+            function handlesignup() {
+
+                let fname = document.getElementById("fname").value
+                let lname = document.getElementById("lname").value
+                let num = document.getElementById("num").value
+                let mail = document.getElementById("mail").value
+                let pass = document.getElementById("pass").value
+                let cpass = document.getElementById("pass2").value
+                let hospital = document.getElementById("hname").value
+                let state = document.getElementById("state").value
+                let zip = document.getElementById("zip").value
+                
+
+                if(fname == "" || lname == "" || num == "" || mail == "" || pass == "" || cpass == "" || hname == "" || state == "" || zip == ""){
+                    alert("fill all the details")
+            
+                }
+                else{
+                    localStorage.setItem("email" , mail)
+                    localStorage.setItem("password" , cpass)
+                    alert("Signup Success")
+                    window.location.href="First page.html"
+                }
+
+            }
+        </script>
+</body>
