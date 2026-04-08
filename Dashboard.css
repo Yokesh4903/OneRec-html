@@ -1,6 +1,172 @@
-.first{
+.first-top{
+        display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.text-top-first{
+    font-family: sans-serif;
+}
+
+
+.img-1{
+    width: 30px;
+}
+.second-logo{
+    background-color: #4284F3;
+    padding-left: 10px;
+}
+
+.col-2{
+    margin-top: 30px;
+        display: flex;
+    flex-direction: column;
+    gap: 30px;
+    height: 90vh;
+}
+.col-10{
+    background-color: whitesmoke;
+    height: 90vh;
+}
+.button{
+    color: #4284F3;
+    border-color:#4284F3 ;
+    
+}
+.top-button{
     display: flex;
-    justify-content: space-around;
-    background-color: grey;
+    gap: 14px;
+    margin-top: 25px;
+    margin-left: 84%;
+}
+
+.second-top{
+    display: flex;
+        gap: 24px;
+    margin-top: 25px;
+}
+.icon{
+    height: 30px
+}
+.active{
+       padding-top: 3px;
+    background-color: orange;
+    height: 25px;
+    border-radius: 13px;
+    width: 50px;
     color: white;
+    font-size: 13px;
+    padding-left: 5px;
+}
+
+.second-top-2{
+    display: flex;
+    margin-left: 6px;
+    gap: 40px;
+    margin-top: 5px;
+    font-family: sans-serif;
+}
+
+.second-top-3{
+    display: flex;
+        margin-left: 4px;
+    gap: 100px;
+    margin-top: 10px;
+    font-family: sans-serif;
+}
+
+.second-top-4{
+  display: flex;
+        margin-left: 4px;
+    gap: 100px;  
+    margin-top: 5px; 
+    font-family: sans-serif;
+}
+
+.dot{
+    width: 10px;
+    height: 10px;
+    margin-top: 5px;
+}
+.total-top-1{
+    display: flex;
+    gap: 10px;
+    align-items: end;
+}
+.appointment{
+    background-color: #4284F3;
+    height: fit-content;
+    color: white;
+    border-color: #4284F3;
+}
+.search-bar{
+    width: 200px;
+    border-radius: 15px;
+}
+
+
+.first-box{
+    border: 1px solid gray;
+    width: fit-content;
+    border-radius: 10px;
+    padding: 25px;
+    
+}
+
+.line-1{
+    font-family: sans-serif;
+    font-size: 12px;
+    color: gray;
+}
+
+.line-2{
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+.first-box-last{
+    margin-left: 30px;
+}
+.second-box{
+    background-color: #4284F3;
+    width: 34%;
+    border-radius: 10px;
+}
+
+.firstline-box
+{
+    display: flex;
+    gap: 25px;
+    margin-top: 10px;
+}
+
+.secondbox-line{
+    margin-left: 25px;
+    margin-top: 15px;
+    color: white;
+
+}
+
+.height{
+    display: flex;
+    flex-direction: column;
+}
+.weight {
+    display: flex;
+    flex-direction: column;
+}
+.BP{
+     display: flex;
+    flex-direction: column;
+}
+.heart{
+     display: flex;
+    flex-direction: column;
+}
+.first-box-1{
+    display: flex;
+    gap: 100px;
+    margin-top: 20px;
 }
