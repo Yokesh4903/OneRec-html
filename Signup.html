@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <head>
     <title>Signup</title>
-    <link rel="stylesheet" href="Second.css">
+    <link rel="stylesheet" href="Signup.css">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 </head>
 
@@ -81,8 +81,10 @@
                 else{
                     localStorage.setItem("email" , mail)
                     localStorage.setItem("password" , cpass)
+                    localStorage.setItem("fname",fname )
+                    localStorage.setItem("lname" , lname)
                     alert("Signup Success")
-                    window.location.href="First page.html"
+                    window.location.href="Signin.html"
                 }
 
             }

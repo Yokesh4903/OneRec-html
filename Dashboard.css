@@ -28,7 +28,7 @@
 }
 .col-10{
     background-color: whitesmoke;
-    height: 90vh;
+    height: 143vh;
 }
 .button{
     color: #4284F3;
@@ -112,7 +112,7 @@
     width: fit-content;
     border-radius: 10px;
     padding: 25px;
-    
+    background-color: white;
 }
 
 .line-1{
@@ -170,3 +170,253 @@
     gap: 100px;
     margin-top: 20px;
 }
+
+.expand-arrow{
+    height: 12px;
+    margin-top: 7px;
+}
+.second-line-box{
+    background-color: white;
+    width: 20%;
+    height: 37vh;
+    margin-top: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.line-2-box-1{
+    display: flex;
+    gap: 137px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.msg-risk{
+    font-size: 14px;
+    color: lightgrey;
+}
+
+.line-2-box-2{
+      margin-left: 58px;
+    margin-top: 70px;
+}
+.add{
+        font-size: 13px;
+        color: #4284F3;
+    margin-left: 0px;
+    margin-top: 49px;
+    border: 1px solid #4284F3;
+    width: 140px;
+    height: 4vh;
+    padding: 6px;
+}
+
+.secondline-box-2{
+    background-color: white;
+    width: 42%;
+    height: 37vh;
+    border: 1px solid;
+    border-radius: 10px;
+    
+}
+
+.line-2-box{
+     display: flex;
+    align-items: end;
+    gap: 22px;
+}   
+.box-2-line-1{
+    display: flex;
+    gap: 76%;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.line-2-first{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+.box-2-line-2{
+    display: flex;
+    gap: 44%;
+}
+
+.box-2-line-3{
+    display: flex;
+    gap: 33%;
+}
+
+.box-2-line-4{
+    display: flex;
+    gap: 49%;
+}
+
+.dotted-line{
+    margin-left: 16px;
+}
+
+.box-2-content{
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    height: 190px;
+}
+
+
+
+.secondline-box-3{
+    background-color: white;
+        width: 34%;
+    height: 37vh;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.box-3-line-1{
+    display: flex;
+    gap: 59%;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.box-3-line-2{
+    display: flex;
+    gap: 22%;
+}
+
+.box-3-line-3{
+    display: flex;
+    gap: 23%;
+}
+
+.HP{
+    color: #4284F3;
+    font-family: sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.chat-box{
+    background-color: white;
+    width: 64%;
+    height: 45vh;
+    margin-top: 15px;
+    border: 1px solid black;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.chat-box-top{
+    margin-top: 10px;
+    margin-left: 20px;
+    font-family: sans-serif;
+}
+
+.chat-1{
+    margin-left: 20px;
+}
+.name-1{
+    margin-left: 10px;
+    font-family: sans-serif;
+    font-size: 12px;
+}
+.time-1{
+        margin-left: 10px;
+    font-size: 10px;
+    font-family: sans-serif;
+    color: darkgrey;
+}
+.chat-content{
+        background-color: whitesmoke;
+    width: 65%;
+    height: 8vh;
+    border: 1px solid whitesmoke;
+    margin-top: 2px;
+    margin-left: 51px;
+    font-size: 12px;
+    font-family: sans-serif;
+    padding-top: 15px;
+    padding-left: 9px;
+}
+.chat-content-2{
+        background-color: whitesmoke;
+    width: 65%;
+    height: 10vh;
+    border: 1px solid whitesmoke;
+    margin-top: 2px;
+    margin-left: 51px;
+    font-size: 12px;
+    font-family: sans-serif;
+    padding-top: 15px;
+    padding-left: 9px;
+}
+.text-space{
+        border: 1px solid #4284F3;
+    height: 46px;
+    margin-top: 21px;
+    background-color: white;
+    display: flex;
+    gap: 70%;
+    align-items: baseline;
+}
+.msg{
+        font-size: 12px;
+    font-family: sans-serif;
+    margin-left: 20px;
+    margin-top: 15px;
+    color: darkgray;
+}
+.send-button{
+    width: 30px;
+    background: #4284F3;
+    border-radius: 17px;
+}
+.pic{
+        width: 15px;
+    margin-right: 8px;
+}
+
+.upcoming{
+     background-color: white;
+        width: 34%;
+    height: 45vh;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.line-3{
+    display: flex;
+    align-items: end;
+    gap: 18px;
+}
+
+.appointment-box-line-1{
+    display: flex;
+    gap: 47%;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.date-box{
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: 65px;
+    height: 65px;
+    margin-left: 30px;
+    margin-top: 5px;
+    color: #4284F3;
+    display: flex;
+    flex-direction: column;
+}
+.appointment-box-line-2{
+        display: flex;
+    align-items: end;
+    gap: 35px;
+}
+.appointment-box-scroll{
+    display: flex;
+    flex-direction: column;
+    height: 34vh;
+    overflow-y: scroll;
+}
+
+
