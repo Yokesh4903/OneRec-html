@@ -15,7 +15,7 @@
           <input type="search" placeholder="Search for patient and Consultations" class="search-bar">
          </div>
          <div>
-          <img src="./Images/Ellipse 5.png"/> <span class="text-top-first">B.Yokesh</span>
+          <img src="./Images/Ellipse 5.png"/> <span class="text-top-first" id="result">B.Yokesh</span>
          </div>
 
     </div>
@@ -49,7 +49,7 @@
 
       <div class="col-10">
         <div class="top-button">
-          <a href="First page.html">
+          <a href="Signin.html">
                <button class="button">< Previous</button>
           </a>
           
@@ -67,6 +67,7 @@
                  <div class="right-top">
                    <div class="second-top">
                      <h1 style="font-size: 29px;">Yokesh B</h1>
+                     <!-- <h1 style="font-size: 29px;" id="result"></h1> -->
                      <h6 class="active">Active</h6> <span class="line-1">*Last Updated on 25 March 2026</span>
                      <button class="appointment">APPOINTMENT</button>
                      <img src="./Images/fluent_more-circle-20-regular.png" class="icon">
@@ -357,6 +358,13 @@
 
     </div>
     
+    <!-- <script>
+      let first = localStorage.getItem("fname");
+        let last = localStorage.getItem("lname");
+
+        
+        document.getElementById("result").innerText = first + " " + last;
+    </script> -->
 
 
      
